@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Christine Joy Culpa - Personal Portfolio">
+  <title>Christine Joy Culpa | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Christine Joy Culpa home">CJC.</a>
+
+      <button class="menu-toggle" id="menuToggle"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#wcag">Accessibility</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">PERSONAL PORTFOLIO</p>
+        <h1>Hello, I'm <span>Christine Joy Culpa</span></h1>
+        <p class="hero-text">
+          A Computer Science student who enjoys learning about web development,
+          programming, and technology.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary-btn" href="#projects">View My Projects</a>
+          <a class="btn secondary-btn" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-label="Portfolio introduction">
+<img src="culpa.jpg.jpg" alt="Christine Joy Culpa" class="profile-photo">
+        <p>Computer Science Student</p>
+        <p>Web Development • Programming • UI Design</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Getting to know me</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="info-card">
+          <h3>Who I Am</h3>
+          <p>
+            I am a person who values faith, family, friendships, and personal growth. I enjoy spending time with the people who matter to me, listening to music, taking photos, and creating meaningful memories. I believe that every season of life has something to teach me, and I continue to grow while trusting God through the journey.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <h3>Education</h3>
+          <p><strong>Program:</strong> Bachelor of Science in Computer Science</p>
+          <p><strong>School:</strong> North Eastern Mindanao State University</p>
+        </article>
+
+        <article class="info-card">
+          <h3>Interests</h3>
+          <ul>
+            <li>Listening to music</li>
+            <li>Serving in church</li>
+            <li>Learning new things</li>
+            <li>Designing user-friendly interfaces</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt-section">
+      <div class="section-heading">
+        <p class="eyebrow">MY SKILLS</p>
+        <h2>What I am learning</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>HTML</h3>
+          <p>Semantic page structure and accessible web content.</p>
+        </article>
+        <article class="skill-card">
+          <h3>CSS</h3>
+          <p>Responsive layouts, styling, spacing, and visual design.</p>
+        </article>
+        <article class="skill-card">
+          <h3>JavaScript</h3>
+          <p>Interactive features and basic web functionality.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Kotlin</h3>
+          <p>Learning Android development and CRUD applications.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Figma</h3>
+          <p>Creating simple wireframes, mockups, and prototypes.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Accessibility</h3>
+          <p>Applying WCAG principles to make websites more usable.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">PROJECTS</p>
+        <h2>Selected school projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="project-number">01</span>
+          <h3>Student ID Monitoring Verification App</h3>
+          <p>
+            A proposed system for monitoring and verifying student IDs before
+            students proceed to designated school areas.
+          </p>
+          <div class="tags">
+            <span>UI Design</span>
+            <span>Figma</span>
+            <span>Accessibility</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">02</span>
+          <h3>Personal Information Web System</h3>
+          <p>
+            A beginner-friendly web system that allows users to save, edit,
+            and delete personal information using HTML, CSS, and JavaScript.
+          </p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">03</span>
+          <h3>AutoDry Rain Detection Concept</h3>
+          <p>
+            An Arduino-based concept that uses a rain sensor and motorized
+            movement to help protect clothes from rain.
+          </p>
+          <div class="tags">
+            <span>Arduino</span>
+            <span>IoT</span>
+            <span>Automation</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="wcag" class="section alt-section">
+      <div class="section-heading">
+        <p class="eyebrow">WCAG COMPLIANCE</p>
+        <h2>The four accessibility principles</h2>
+        <p class="section-intro">
+          This portfolio was designed around the four WCAG principles:
+          Perceivable, Operable, Understandable, and Robust.
+        </p>
+      </div>
+
+      <div class="wcag-grid">
+        <article class="wcag-card">
+          <div class="wcag-letter">P</div>
+          <h3>Perceivable</h3>
+          <p>
+            Content is presented using readable text, clear headings, strong
+            contrast, and descriptive labels. Images can use alternative text
+            when added to the portfolio.
+          </p>
+        </article>
+
+        <article class="wcag-card">
+          <div class="wcag-letter">O</div>
+          <h3>Operable</h3>
+          <p>
+            The navigation is keyboard-friendly, links have clear labels,
+            buttons are easy to identify, and focus states are visible.
+          </p>
+        </article>
+
+        <article class="wcag-card">
+          <div class="wcag-letter">U</div>
+          <h3>Understandable</h3>
+          <p>
+            The website uses simple language, consistent navigation,
+            predictable layouts, and descriptive buttons and links.
+          </p>
+        </article>
+
+        <article class="wcag-card">
+          <div class="wcag-letter">R</div>
+          <h3>Robust</h3>
+          <p>
+            Semantic HTML and responsive CSS are used to improve compatibility
+            with modern browsers, different screen sizes, and assistive tools.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Let's connect</h2>
+        <p class="section-intro">
+        Feel free to contact me if you have any questions about my projects, skills, or portfolio.        </p>
+      </div>
+
+      <div class="contact-box">
+        <div>
+          <h3>Email</h3>
+          <a href="mailto:culpachristinejoy@gmail.com">culpachristinejoy@gmail.com</a>
+        </div>
+        <div>
+          <h3>Location</h3>
+          <p>Philippines</p>
+        </div>
+        <div>
+          <h3>Student</h3>
+          <p>BS Computer Science</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Christine Joy Culpa. All rights reserved.</p>
+    <p>Designed with accessibility in mind.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
